@@ -238,7 +238,7 @@ toggleButton.addEventListener('click', function () {
 
 
 function openGameWindow(){
-  window.open("/assets/Game/game.html", 
+  window.open("https://fireship-demos.web.app/", 
               "Maze - Game", 
               "popup,left=100,top=100,width=520,height=600");
 }

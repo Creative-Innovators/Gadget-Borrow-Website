@@ -236,11 +236,16 @@ toggleButton.addEventListener('click', function () {
   }
 });
 
+function openChatAp(){
+  window.open("http://localhost:3000", 
+              "Chat - App", 
+              "popup,left=100,top=100,width=520,height=600");
+}
 
 function openGameWindow(){
-  window.open("https://fireship-demos.web.app/", 
-              "Maze - Game", 
-              "popup,left=100,top=100,width=520,height=600");
+  window.open("http://localhost:3001", 
+              "Tic-Tac-Toe - Game", 
+              "popup,left=200,top=100,width=520,height=600");
 }
 
 // JavaScript for the cookie consent banner

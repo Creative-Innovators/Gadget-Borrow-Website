@@ -236,7 +236,7 @@ toggleButton.addEventListener('click', function () {
   }
 });
 
-function openChatAp(){
+function openChatApp(){
   window.open("http://localhost:3000", 
               "Chat - App", 
               "popup,left=100,top=100,width=520,height=600");
